@@ -1,6 +1,8 @@
-# WaveRNN
+# WaveRNN Server
 
-##### (Update: Vanilla Tacotron One TTS system just implemented - more coming soon!)
+Web server wrapper for [WaveRNN](https://github.com/fatchord/WaveRNN) by fatchord. Start with `python server.py` and POST text to localhost:5700 to generate .wav-files.
+
+# WaveRNN
 
 Pytorch implementation of Deepmind's WaveRNN model from [Efficient Neural Audio Synthesis](https://arxiv.org/abs/1802.08435v1)
 
