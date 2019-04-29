@@ -49,8 +49,7 @@ if __name__ == "__main__" :
                       res_out_dims=hp.voc_res_out_dims,
                       res_blocks=hp.voc_res_blocks,
                       hop_length=hp.hop_length,
-                      sample_rate=hp.sample_rate,
-                      mode=hp.voc_mode).cuda()
+                      sample_rate=hp.sample_rate).cuda()
 
     voc_model.restore(paths.voc_latest_weights)
 

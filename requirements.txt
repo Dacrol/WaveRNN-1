@@ -4,3 +4,6 @@ matplotlib
 unidecode
 inflect
 nltk
+flask
+ptvsd
+uuid

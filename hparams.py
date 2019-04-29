@@ -2,8 +2,8 @@
 # CONFIG -----------------------------------------------------------------------------------------------------------#
 
 # Here are the input and output data paths (Note: you can override wav_path in preprocess.py)
-wav_path = '/path/to/wav_files/'
-data_path = 'data/'
+wav_path = './wav_files/'
+data_path = './data/'
 
 # model ids are separate - that way you can use a new tts with an old wavernn and vice versa
 # NB: expect undefined behaviour if models were trained on different DSP settings
